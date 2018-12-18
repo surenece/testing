@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [com.qa.canGen Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Can Generation Test Cases(failed)">
+    <classes>
+      <class name="testcases.Service_Home_Test">
+        <methods>
+          <include name="Service_home_header_Test"/>
+          <include name="setup"/>
+          <include name="quite"/>
+        </methods>
+      </class> <!-- testcases.Service_Home_Test -->
+      <class name="testcases.Prcd_Home_Test">
+        <methods>
+          <include name="Ser_link_Test"/>
+          <include name="quite"/>
+          <include name="Service_home_header_Test"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.Prcd_Home_Test -->
+      <class name="testcases.Log_in_Test">
+        <methods>
+          <include name="setExtent"/>
+          <include name="setup"/>
+          <include name="endReport"/>
+          <include name="tearDown"/>
+          <include name="Title_Check"/>
+        </methods>
+      </class> <!-- testcases.Log_in_Test -->
+    </classes>
+  </test> <!-- Can Generation Test Cases(failed) -->
+</suite> <!-- Failed suite [com.qa.canGen Test Automation Test Suite] -->

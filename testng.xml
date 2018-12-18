@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="com.qa.canGen Test Automation Test Suite">
+
+	<listeners>
+		<listener class-name="ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+
+	<test name="Can Generation Test Cases">
+		<classes>
+			<class name="testcases.Log_in_Test"></class>
+			<class name="testcases.Home_Test"></class>
+			<class name="testcases.Prcd_Home_Test"></class>
+			<class name="testcases.Prcd_Home_Test"></class>
+			<class name="testcases.Service_Home_Test"></class>
+			<class name="testcases.Can_Test"></class>
+
+		</classes>
+	</test>
+</suite>
